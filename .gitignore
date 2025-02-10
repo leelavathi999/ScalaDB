@@ -1,0 +1,93 @@
+# === Build Directories ===
+target/
+project/target/
+project/project/
+project/metals.sbt
+metals.sbt
+out/
+bin/
+build/
+
+# === SBT-Specific Files ===
+lib_managed/
+src_managed/
+.sbtops/
+.sbtboot/
+.sbtn/
+
+# === IDE-Specific Files ===
+.idea/
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.bloop/
+.bsp/
+.metals/
+
+# === Eclipse-Specific ===
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.sts4-cache
+
+# === NetBeans-Specific ===
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# === Logs & Debugging ===
+*.log
+*.log.*
+hs_err_pid*
+/logs/
+/*.log
+
+# === OS / System Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# === Akka HTTP Logs ===
+/akka-http-testkit.log
+
+# === Database Configuration & Credentials ===
+/conf/application.conf
+database.conf
+secrets.conf
+
+# === PostgreSQL-Specific Files ===
+*.db
+*.sql
+*.pgsql
+/postgres-data/
+/pgdata/
+
+# === Docker-Specific Files ===
+/docker-compose.override.yml
+/docker/data/
+/docker/logs/
+/docker/tmp/
+
+# === Exclude Maven Wrapper But Keep the Jar ===
+!.mvn/wrapper/maven-wrapper.jar
+
+# === Allow Specific Paths in Source Directories ===
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/out/
+!**/src/test/**/out/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+!**/src/main/**/build/
+!**/src/test/**/build/
